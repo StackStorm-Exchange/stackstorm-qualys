@@ -4,10 +4,16 @@ Read [API Documentation](https://www.qualys.com/docs/qualys-api-v2-user-guide.pd
 
 ## Configuration
 
-`config.yaml` requires 3 properties:
+Copy the example configuration in [qualys.yaml.example](./qualys.yaml.example)
+to `/opt/stackstorm/configs/qualys.yaml` and edit as required.
+
+It has three entries:
+
 * `hostname` The host of the Qualys API serivce
 * `username` User to the API
 * `password` Password to the API
+
+It should look like this:
 
 ```yaml
 ---
@@ -15,6 +21,10 @@ hostname: qualysapi.serviceprovider.com
 username: jerry
 password: I<3Elaine
 ```
+
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
 
 ## Actions
 

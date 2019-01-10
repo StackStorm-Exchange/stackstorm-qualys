@@ -1,6 +1,8 @@
 from qualysapi.connector import QGConnector
-from parsers import ResultSets
+
 from st2common.runners.base_action import Action
+
+from lib.parsers import ResultSets
 
 __all__ = [
     'QualysBaseAction',

@@ -6,5 +6,8 @@ keywords:
   - security
   - qualys
 version: 1.0.2
+python_versions:
+  - "2"
+  - "3"
 author : Anthony Shaw
 email : anthony.shaw@dimensiondata.com

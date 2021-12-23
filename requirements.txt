@@ -1,1 +1,1 @@
--e git+https://github.com/Kami/qualysapi@python3_compatibility#egg=qualysapi
+-e git+https://github.com/Kami/qualysapi@python3_compatibility#egg=UNKNOWN
